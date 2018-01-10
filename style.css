@@ -1,0 +1,102 @@
+/*Add colored borderes and margin padding */
+article, header, nav, aside, section, footer, .container {
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	font-family: 'Slabo 27px', serif;
+	color: #555555;
+	box-sizing: border-box;
+}
+
+header {
+	border-color: salmon;
+	background: linear-gradient(105deg, violet, violet 60%, cyan);
+}
+
+section {
+	border-color: cornflowerblue;
+	border-radius: 10px;
+}
+footer {
+	border-color: darkmagenta;
+	border-radius: 10px;
+}
+aside {
+	border-color: orange;
+	border-radius: 5px 25px 5px 25px;
+}
+article {
+	border-color: grey;
+	border-radius: 10px;
+}
+nav {
+	border-color: seagreen;
+	border-radius: 10px;
+}
+
+
+
+/*Layout style*/
+#logo {
+	width: 80px;
+}
+
+nav {
+	background: linear-gradient(105deg, violet, violet 60%, cyan);
+}
+
+header nav {
+	float: right;
+	 background: linear-gradient(135deg, orange, orange 60%, violet);
+
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 16px;
+}
+
+nav ul {
+	padding-left: 0;
+
+}
+
+.container {
+	width: 750px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+article {
+	width: 500px;
+	float: left;
+}
+
+aside {
+	width: 200px;
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+div.coffee {
+    position: fixed;
+    right: 100px;
+    bottom: 120px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border: 2px;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+div.smile {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
