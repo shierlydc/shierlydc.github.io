@@ -35,6 +35,12 @@ nav {
 	border-radius: 10px;
 }
 
+@keyframes heart {
+	from {
+		margin-left: 100%;
+	}
+}
+
 
 
 /*Layout style*/
@@ -99,4 +105,14 @@ div.smile {
     position: relative;
     width: 20px;
     height: 20px;
+}
+
+.heart {
+	margin-left: -100%;
+  	animation-duration: 3s;
+  	animation-name: heart;
+  	animation-iteration-count: infinite;
+ 	animation-direction: alternate;
+/* 	animation:  bounceIn 2s ease-in-out 3s 2;*/
+	
 }
